@@ -67,13 +67,13 @@
             a{
                 margin-right: 2rem;
                 text-decoration: none;
-            }           
+            } 
         </style>
     </head>
     <body>
         <header>
             <nav>
-                <a href="{{'home'}} ">Home</a>
+                <a href="{{'/'}} ">Home</a>
                 <a href="{{'about'}} ">About</a>
             </nav>
         </header>
@@ -81,10 +81,9 @@
             
             <div class="content">
                 <div class="title m-b-md">
-                    My Home-page
+                    My About-page
                 </div>
-                <span class="title">Hello World!!</span>
-                <h4> {{$text}} {{$name}} {{$lastName}} </h4>
+                <h4> {{$article}} </h4>
             </div>
         </div>
     </body>

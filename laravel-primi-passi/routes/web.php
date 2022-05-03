@@ -26,3 +26,9 @@ Route::get('/', function () {
     return view('home' , $data);
 });
 
+Route::get('/about', function () {
+    $aboutData = [
+        'article' => 'Sezione about della WebApp '
+    ];
+    return view('about' , $aboutData);
+});
