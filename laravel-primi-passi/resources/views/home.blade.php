@@ -70,7 +70,7 @@
                 <div class="title m-b-md">
                     My Home-page
                 </div>
-                <span class="title">Hello World!1!1!!</span>
+                <span class="title">Hello World!!</span>
                 <h4> {{$text}} {{$name}} {{$lastName}} </h4>
             </div>
         </div>
